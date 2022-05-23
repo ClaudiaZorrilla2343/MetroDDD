@@ -1,6 +1,7 @@
 package com.example.metroTickets.Civica;
 
 import co.com.sofka.domain.generic.EventChange;
+import com.example.metroTickets.Civica.Events.Asignacion;
 
 public class CivivaEventChange extends EventChange {
     public CivivaEventChange(Civica civica) {

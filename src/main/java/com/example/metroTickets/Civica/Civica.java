@@ -1,10 +1,9 @@
 package com.example.metroTickets.Civica;
 
 import co.com.sofka.domain.generic.AggregateEvent;
+import com.example.metroTickets.Civica.Events.Asignacion;
 import com.example.metroTickets.Civica.ValueObjects.CivicaID;
 import com.example.metroTickets.Civica.ValueObjects.TipoTarjeta;
-import com.example.metroTickets.PuntoVenta.Events.Venta;
-import com.example.metroTickets.PuntoVenta.VentaEventChange;
 
 public class Civica extends AggregateEvent<CivicaID> {
 

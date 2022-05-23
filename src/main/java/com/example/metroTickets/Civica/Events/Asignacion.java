@@ -1,6 +1,7 @@
-package com.example.metroTickets.Civica;
+package com.example.metroTickets.Civica.Events;
 
 import co.com.sofka.domain.generic.DomainEvent;
+import com.example.metroTickets.Civica.Usuario;
 import com.example.metroTickets.Civica.ValueObjects.TipoTarjeta;
 
 public class Asignacion extends DomainEvent {
