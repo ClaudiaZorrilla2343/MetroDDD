@@ -1,7 +1,9 @@
-package com.example.metroTickets.MaquinaRecarga.ValueObjects;
+package com.example.metroTickets.MaquinaRecarga;
 
 import co.com.sofka.domain.generic.Entity;
 import co.com.sofka.domain.generic.Identity;
+import com.example.metroTickets.MaquinaRecarga.ValueObjects.Ayuda;
+import com.example.metroTickets.MaquinaRecarga.ValueObjects.MaquinaID;
 
 public class Maquina extends Entity<MaquinaID> {
 
