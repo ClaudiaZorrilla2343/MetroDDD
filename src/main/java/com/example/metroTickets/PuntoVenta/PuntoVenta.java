@@ -15,8 +15,11 @@ public class PuntoVenta extends AggregateEvent<PuntoVentaID> {
     private Tarifa tarifa;
     private Fecha fecha;
 
-    public PuntoVenta(PuntoVentaID puntoVentaID) {
+    public PuntoVenta(PuntoVentaID puntoVentaID, Factura factura, Tarifa tarifa, Fecha fecha) {
         super(puntoVentaID);
+        appendChange(new Venta(tarifa, fecha, factura)).apply();
+        //subscribe(new PuntoVenta(this));
+
     }
 
     public Factura factura() {
