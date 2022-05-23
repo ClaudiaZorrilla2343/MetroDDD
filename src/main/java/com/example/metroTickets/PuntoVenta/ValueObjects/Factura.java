@@ -24,4 +24,5 @@ public class Factura implements ValueObject<String> {
                 ", fecha=" + fecha +
                 '}';
     }
+
 }
