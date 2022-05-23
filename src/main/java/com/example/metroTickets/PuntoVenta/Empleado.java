@@ -10,10 +10,9 @@ public class Empleado extends Entity<EmpleadoID> {
     private Nombre nombre;
     private Apellidos apellidos;
 
-    public Empleado(EmpleadoID empleadoID, Nombre nombre, Apellidos apellidos){
-       super(empleadoID);
+    public Empleado(EmpleadoID entityid, Nombre nombre, Apellidos apellidos){
+       super(entityid);
        this.nombre = nombre;
        this.apellidos = apellidos;
     }
-
 }
